@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Marvel Quotes</title>
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Marvel Quotes</h2>
+        </div>
+
+        <div class="main-content">
+            <div class="text-area">
+                <span class="quote">
+                    "..."
+                </span>
+            </div>
+            <div class="character">
+                ...
+            </div>
+            <div class="button-area">
+                <button id="new-quote">Next Quote</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- background song because why not??? -->
+    <div class="audio-player">
+        <audio id="myAudio" src="Marvel Avengers Theme Song ｜ Copyright Free Avengers BGM ｜ By NBC.mp3"></audio>
+        <div class="controls">
+            <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+            <span id="currentTime">0:00</span> /
+            <span id="duration">0:00</span>
+            <input type="range" id="seekBar" value="0" step="0.01" min="0">
+        </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
