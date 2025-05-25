@@ -159,7 +159,7 @@ body{
   @media (max-width: 720px){
     .container{
       width: 400px;
-      height: 350px;
+      height: 400px;
   }
 
   .header{
@@ -209,4 +209,48 @@ body{
     font-size: 13px;
   }
   
+  }
+
+
+
+
+  @media (max-width: 550px){
+
+    body{
+      height: 100dvh;
+    }
+
+    .container{
+      width: 300px;
+      height: 350px;
+  }
+
+  .header{
+    font-size: 1rem;
+    width: 70%;
+    padding: 8px 5px ;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.main-content{
+  padding: 30px 25px;
+  box-shadow: 0 0 10px black;
+  backdrop-filter: blur(1.5px);
+}
+
+.main-content .text-area{
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.main-content .character{
+  font-size: 1.05rem;
+}
+
+.button-area button{
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
   }
