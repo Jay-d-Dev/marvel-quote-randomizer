@@ -214,7 +214,7 @@ body{
 
 
 
-  @media (max-width: 620px){
+  @media (max-width: 550px){
 
     body{
       height: 100dvh;
