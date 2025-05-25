@@ -112,17 +112,5 @@ randomQuote();
     return `${mins}:${secs}`;
   }
 
-  //volume js
-  const volumeBar = document.getElementById('volumeBar');
-  const muteBtn = document.getElementById('muteBtn');
-
-  // Set volume from slider
-  volumeBar.addEventListener('input', () => {
-    audio.volume = volumeBar.value;
-    muteBtn.innerHTML = audio.volume == 0 ? '🔇' : '<i class="fa-solid fa-volume-high"></i>';
-  });
-
-
-
 
 
